@@ -20,5 +20,5 @@ ENV DAGSTER_HOME=/app
 # Expose port
 EXPOSE 3000
 
-# Run Dagster webserver
-CMD ["dagster", "dev", "-h", "0.0.0.0", "-p", "3000"]
+# Run Dagster webserver with explicit module path
+CMD ["dagster", "dev", "-m", "dagster_project", "-h", "0.0.0.0", "-p", "3000"]
