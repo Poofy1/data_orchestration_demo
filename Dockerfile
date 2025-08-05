@@ -13,7 +13,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project code
 COPY dagster_project/ ./dagster_project/
-COPY dagster.yaml .
 
 # Set environment
 ENV DAGSTER_HOME=/app

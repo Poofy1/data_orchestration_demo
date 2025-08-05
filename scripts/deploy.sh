@@ -31,7 +31,7 @@ docker push $ACCOUNT_ID.dkr.ecr.$REGION.amazonaws.com/$REPO_NAME:latest
 echo "Docker image pushed to ECR"
 
 # Create task definition  
-echo "📋 Creating ECS task definition..."
+echo "Creating ECS task definition..."
 TASK_DEF=$(cat << EOF
 {
   "family": "dagster-investment-analytics",
