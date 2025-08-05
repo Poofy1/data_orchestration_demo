@@ -1,0 +1,3 @@
+storage:
+  postgres:
+    postgres_url: "postgresql://dagster:password@localhost:5432/dagster"

@@ -1,0 +1,7 @@
+dagster
+dagster-webserver
+dagster-aws
+pandas
+boto3
+snowflake-connector-python
+pyarrow
